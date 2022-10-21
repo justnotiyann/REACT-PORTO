@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+body {
+  font-family: 'Jost', sans-serif !important; }
+
+#hero {
+  margin-top: 10em;
+  height: 80vh; }
+
+#tech {
+  padding: 2em; }
+  #tech .title h1 {
+    font-weight: 600; }
+  #tech .card_custom {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 2em;
+    transition: all 0.3s ease-in-out; }
+    #tech .card_custom:hover {
+      box-shadow: 10px 10px black; }
+    #tech .card_custom_icon {
+      display: flex;
+      justify-content: center;
+      font-size: 8em;
+      transition: all 0.3s ease-in-out; }
+      #tech .card_custom_icon:hover {
+        color: purple; }
+    #tech .card_custom_title {
+      margin-top: 1em;
+      font-size: 1.7em;
+      text-align: center;
+      color: black;
+      font-weight: bold; }
+    #tech .card_custom_body {
+      text-align: center; }
