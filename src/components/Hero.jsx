@@ -1,5 +1,4 @@
 import logo from "../images/logo.jpg";
-
 export default function Hero() {
   return (
     <div className="container" id="hero">
