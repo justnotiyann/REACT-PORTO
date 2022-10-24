@@ -1,4 +1,5 @@
 import CardEksternal from "./components/CardEksternal";
+import CardUSe1 from "./components/CardUSe1";
 import FetchCard from "./components/FetchCard";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -9,13 +10,14 @@ import Tech from "./components/Tech";
 function App() {
     return (
         <>
-            <CardEksternal /> */}
+            <CardUSe1 />
+            {/* <CardEksternal />
             <FetchCard />
             <Navbar />
             <Hero />
             <Tech />
             <PersonalInterest />
-            <Footer />
+            <Footer /> */}
         </>
     );
 }
